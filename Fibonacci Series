@@ -1,0 +1,19 @@
+PROGRAM:
+
+package Practices;
+
+public class FibonaciiSeries {
+	public static void main(String args[]) {
+  int n=15;
+  int a=0,b=1;
+  int temp;
+  System.out.print("The numbers are " +a+","+b+",");
+  for(int i=2;i<n;i++) {
+	  temp=a+b;
+	  a=b;
+	  b=temp;
+	  System.out.print(temp+a+","+b+",");
+	  
+}
+}
+}
